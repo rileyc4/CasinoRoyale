@@ -14,7 +14,7 @@ font-size: 300%;
 h2 {font-style: Bold;
 color: red;
 text-align: center;
-font-size: 175%;
+font-size: 200%;
 } 
 
 h3 {font-style: Bold;
@@ -22,12 +22,6 @@ color: #ffffcc;}
 
 
 p {color: #ffffe6;}
-
-li {color: #ffffcc;}
-
-nav {color: #ffffcc;
-float: right;
-}
 
 
 #Intro{
