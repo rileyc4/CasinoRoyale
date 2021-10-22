@@ -18,7 +18,9 @@ font-size: 200%;
 } 
 
 h3 {font-style: Bold;
-color: #ffffcc;}
+color: red;
+text-align: center;
+font-size: 200%;} 
 
 
 p {color: #ffffe6;}
