@@ -1,8 +1,12 @@
  body {background: url("12.04.21.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Quantum', cursive;} 
+
 h1 {
 color: white;
 text-align: center;
+height: 100px;
+width: 100%;
+line-height: 2;
 }
 
 
