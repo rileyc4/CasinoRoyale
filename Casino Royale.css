@@ -1,9 +1,11 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Freight Sans Black';} </body>
 
+#GoldHeader
+{font-family: 'Freight Sans Black';
+font-style: semibold;
+color#D0Bf8D}
 
-.header 
-{margin-left: auto;
-margin-right: auto;
-width: 50%;}
+
+
 
