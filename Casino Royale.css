@@ -2,4 +2,7 @@
  font-family: 'Freight Sans Black';} </body>
 
 
-h1 {align: center;}
+.header {display:block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;}
