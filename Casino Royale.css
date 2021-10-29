@@ -1,11 +1,10 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Freight Sans Black';} </body>
 
-#GoldHeader
-{font-family: 'Freight Sans Black';
-color: #D0Bf8D;
+h1 {
+color: #D0BF8D;
 text-align: center;
-size: 100px;}
+}
 
 
 
