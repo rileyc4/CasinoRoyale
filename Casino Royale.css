@@ -1,95 +1,46 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
- font-family: 'Freight Sans Black';} 
+ font-family: 'Freight Sans Black';} </body>
 
 h1 {
-color: #d1d2d4;
-text-align: center;
-height: 100px;
-width: 100%;
-line-height: 2;
-font-size: 400%;
-}
+
+<!doctype html!> 
+<html>
+<head>
+<title>Casino Royale LLP</title>
+<link rel="stylesheet" type="text/css" href="Casino Royale.css"> 
 
 
-h2 {font-style: Bold;
-color: #d1d2d4;
-text-align: center;
-font-size: 250%;
-outline-color: black;
-outline-width: 2px;
-} 
 
-h3 {font-style: Bold;
-color: #d1d2d4;
-text-align: center;
-font-size: 250%;} 
+</head>
+<body>
+<h1 class="header-text"> McLeod Law LLP Casino Royale</h1>
+
+<h1.0> </h1.0>
+
+<h2> You are formally invited to a Casino Royale on 12.04.21. </h2>
+
+<h3> Please join us at Hudson (200 8 Ave SW) beginning at 6pm that evening.
 
 
-p {color: #ffffe6;}
+<h5> 
+ 
+ 
+</h5>
 
 
-#Intro{
-background-color: black;
-width:200px;
-border: 5px solid #ff8000; 
-padding:25px;
-margin:25px;
-}
-
-#HalloweenFacts{
-background-color: black;
-width:200px; 
-border: 5px solid #ff8000; 
-padding:25px;
-margin:25px;
-font-family: 'Permanent Marker', cursive;
-}
-
-#HalloweenFacts2 {
-background-color: black;
-width:200px; 
-border: 5px solid #ff8000; 
-padding:25px;
-margin:25px;
-font-family: 'Permanent Marker', cursive;
-}
-
-#October {
-background-color: black;
-width:200px; 
-border: 1px solid #000000; 
-padding:1px;
-margin:25px;
-font-family: 'Permanent Marker', cursive;
-}
-
-#Movies {
-font-size: 20px;
-font-style: bold;
-}
 
 
-img {float: right;
-width: 200px;}
+<audio controls autoplay
+id="musicplayer" autoplay>
+>
+  <source src="JamesBond.mp3" type="audio/mpeg"/>
+</audio>
 
-iframe {position: relative;}
 
-.header-text
-{
-position:sticky;
-top:0;
-}
 
-audio {float: right;
-right: 0;
-position:fixed;
-bottom: 0;}
 
-table {
-float:right;
-right: 0;
-color: #ffffcc;
-font-family: 'Permanent Marker', cursive;
-text-align: center;
 
-}
+
+</body>
+</html>
+
