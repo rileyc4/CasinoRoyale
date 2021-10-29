@@ -2,7 +2,8 @@
  font-family: 'Freight Sans Black';} </body>
 
 
-.header {display:block;
-margin-left: auto;
+.header 
+{margin-left: auto;
 margin-right: auto;
 width: 50%;}
+
