@@ -1,6 +1,12 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Freight Sans Black';} 
 
+#GoldHeader {
+width: 50%;
+margin-left: auto;
+margin-top: auto;
+}
+
 h1 {
 color: #D0BF8D;
 text-align: center;
