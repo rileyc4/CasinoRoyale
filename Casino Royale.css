@@ -1,7 +1,8 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Freight Sans Black';} </body>
 
-h1 {
+h1 {font-family: 'Freight Sans Black';
+color:#004851;}
 
 <!doctype html!> 
 <html>
