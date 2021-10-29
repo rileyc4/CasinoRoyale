@@ -1,48 +1,98 @@
-<!doctype html!> 
+<!DOCTYPE html>
 <html>
-<head>
-<title>Casino Royale LLP</title>
-<link rel="stylesheet" type="text/css" href="Casino Royale.css"> 
-
-
-
-</head>
-<body>
-<h1 class="header-text"> McLeod Law LLP Casino Royale</h1>
-
-<h1.0> </h1.0>
-
-<h2> You are formally invited to a Casino Royale on 12.04.21. </h2>
-
-<h3> Please join us at Hudson (200 8 Ave SW) beginning at 6pm that evening.
-
-
-<h5> 
- 
- 
-</h5>
-
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+	<head>
+		<title>
+			Create a Form Dynamically with
+			the JavaScript
+		</title>
+	</head>
+	<body style="text-align: center;">
+		<h1 style="color: green;">
+			GeeksforGeeks
+		</h1>
+		<p>
+		Click on the button to create
+		a form dynamically
+		</p>
+		<button onClick="GFG_Fun()">
+			click here
+		</button>
+		<p id="GFG_DOWN"></p>
 <script>
+	var down = document.getElementById("GFG_DOWN");
+			
+	// Create a break line element
+	var br = document.createElement("br");
+	function GFG_Fun() {
+				
+	// Create a form synamically
+	var form = document.createElement("form");
+	form.setAttribute("method", "post");
+	form.setAttribute("action", "submit.php");
 
-  hbspt.forms.create({
-	region: "na1",
-	portalId: "9315517",
-	formId: "1a7f4ba0-be23-43e5-af2d-83d46a3e59af"
-});
-</script>
+	// Create an input element for Full Name
+	var FN = document.createElement("input");
+	FN.setAttribute("type", "text");
+	FN.setAttribute("name", "FullName");
+	FN.setAttribute("placeholder", "Full Name");
 
+	// Create an input element for date of birth
+	var DOB = document.createElement("input");
+	DOB.setAttribute("type", "text");
+	DOB.setAttribute("name", "dob");
+	DOB.setAttribute("placeholder", "DOB");
 
-<audio controls autoplay
-id="musicplayer" autoplay>
->
-  <source src="JamesBond.mp3" type="audio/mpeg"/>
-</audio>
+	// Create an input element for emailID
+	var EID = document.createElement("input");
+	EID.setAttribute("type", "text");
+	EID.setAttribute("name", "emailID");
+	EID.setAttribute("placeholder", "E-Mail ID");
 
+	// Create an input element for password
+	var PWD = document.createElement("input");
+	PWD.setAttribute("type", "password");
+	PWD.setAttribute("name", "password");
+	PWD.setAttribute("placeholder", "Password");
 
+	// Create an input element for retype-password
+	var RPWD = document.createElement("input");
+	RPWD.setAttribute("type", "password");
+	RPWD.setAttribute("name", "reTypePassword");
+	RPWD.setAttribute("placeholder", "ReEnter Password");
 
+				// create a submit button
+				var s = document.createElement("input");
+				s.setAttribute("type", "submit");
+				s.setAttribute("value", "Submit");
+				
+				// Append the full name input to the form
+				form.appendChild(FN);
+				
+				// Inserting a line break
+				form.appendChild(br.cloneNode());
+				
+				// Append the DOB to the form
+				form.appendChild(DOB);
+				form.appendChild(br.cloneNode());
+				
+				// Append the emailID to the form
+				form.appendChild(EID);
+				form.appendChild(br.cloneNode());
+				
+				// Append the Password to the form
+				form.appendChild(PWD);
+				form.appendChild(br.cloneNode());
+				
+				// Append the ReEnterPassword to the form
+				form.appendChild(RPWD);
+				form.appendChild(br.cloneNode());
+				
+				// Append the submit button to the form
+				form.appendChild(s);
 
-
-
-</body>
+				document.getElementsByTagName("body")[0]
+			.appendChild(form);
+			}
+		</script>
+	</body>
 </html>
