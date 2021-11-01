@@ -37,7 +37,7 @@ padding: 10px;
 #Form {
 font-family: 'Arial';
 color: #D0BF8D;
-font-size: 150%;
+font-size: 125%;
 text-align: left;
 margin: auto;
 width: 400px;
@@ -51,5 +51,5 @@ color: #D1D2D4;
 }
 
 #Submit {
-text-align: left;
+text-align: right;
 }
