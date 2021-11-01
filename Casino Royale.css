@@ -44,9 +44,11 @@ border: 5px solid #D0BF8D;
 padding: 10px;
 }
 
-#TypeHere {
-color: #D1D2D4;	
+#PlusOne {
+font-size: 75%
+padding:0px;	
 }
+
 
 #Form2 {
 font-family: 'Arial';
