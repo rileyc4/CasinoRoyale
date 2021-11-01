@@ -9,7 +9,10 @@ font-family: 'Arial';
 }
 
 #Header{
-	align-items: center;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	padding: 15px
 }
 
 
