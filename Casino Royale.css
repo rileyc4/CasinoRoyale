@@ -29,3 +29,14 @@ border: 5px solid #D0BF8D;
 padding: 10px;
 }
 
+#Form {
+font-family: 'Arial';
+color: #D0BF8D;
+font-size: 150%;
+text-align: center;
+margin: auto;
+width: 400px;
+background-color: #004851;
+border: 5px solid #D0BF8D;
+padding: 10px;
+}
