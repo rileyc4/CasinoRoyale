@@ -6,6 +6,7 @@ color: #D0BF8D;
 text-align: center;
 font-size: 350%;
 font-family: 'Arial';
+padding: 100px;
 }
 
 h2 {
@@ -24,7 +25,7 @@ margin: auto;
 width: 400px;
 background-color: #004851;
 border: 5px solid #D0BF8D;
-padding: 25px;
+padding: 40px;
 }
 
 
