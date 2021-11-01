@@ -48,6 +48,18 @@ padding: 10px;
 color: #D1D2D4;	
 }
 
+#Form2 {
+font-family: 'Arial';
+color: #D0BF8D;
+font-size: 125%;
+text-align: left;
+margin: auto;
+width: 400px;
+background-color: #004851;
+border: 5px solid #D0BF8D;
+padding: 10px;
+}
+
 #Submit {
 text-align: center;
 }
