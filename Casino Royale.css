@@ -16,16 +16,16 @@ font-family: 'Arial';
 }
 
 #Agenda {
-background-color: #004851;
-width: 400px;
-border: 5px solid #D0BF8D;
-padding: 25px;
-margin: 25px;
 font-family: 'Arial';
 color: #D0BF8D;
 font-size: 150%;
 text-align: center;
-background-position: center;
+margin: auto;
+width: 400px;
+background-color: #004851;
+border: 5px solid #D0BF8D;
+padding: 25px;
+margin: 25px;
 }
 
 
