@@ -1,6 +1,10 @@
  body {background: url("LandingPage.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
  font-family: 'Arial'; }
 
+#Audio {
+position: absolute;
+}
+
 #BlankSpace {
 padding-top: 140px;	
 }
@@ -116,8 +120,3 @@ padding: 10px;
 text-align: center;
 }
 
-#Audio {
-position: absolute;
-left: 0;
-bottom: 0;
-}
