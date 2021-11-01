@@ -44,6 +44,10 @@ border: 5px solid #D0BF8D;
 padding: 10px;
 }
 
+#Submit1 {
+text-align: center;
+}
+
 #Form2 {
 font-family: 'Arial';
 color: #D0BF8D;
@@ -66,6 +70,12 @@ width: 500px;
 background-color: #004851;
 }
 
-#Submit1 {
-text-align: center;
+#SalmonDetails {
+font-family: 'Arial';
+color: #D0BF8D;
+font-size: 75%;
+text-align: left;
+margin: auto;
+width: 500px;
+background-color: #004851;
 }
