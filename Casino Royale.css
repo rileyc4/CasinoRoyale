@@ -8,12 +8,13 @@ font-size: 350%;
 font-family: 'Arial';
 }
 
-#Header{
-	width: 200px;
-	height: auto;
-	text-align: center;
-	padding: 15px
+h2 {
+color: #D0BF8D;
+text-align: center;
+font-size: 250%;
+font-family: 'Arial';
 }
+
 
 
 
