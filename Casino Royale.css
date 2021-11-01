@@ -1,11 +1,11 @@
  body {background: url("CR Background.png"); background-repeat: no-repeat; background-size:cover; background-attachment: fixed; 
- font-family: 'FreightSans';} 
+ font-family: "FreightSans";} 
 
 h1 {
 color: #D0BF8D;
 text-align: center;
 font-size: 400%;
-font-family: 'FreightSans';
+font-family: "FreightSans";
 }
 
 
