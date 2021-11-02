@@ -15,6 +15,8 @@ text-align: center;
 font-size: 350%;
 font-family: 'Arial';
 background-color: #00485;
+border: 5px solid #D0BF8D;
+padding: 10px;
 }
 
 h2 {
@@ -24,6 +26,8 @@ font-size: 200%;
 font-family: 'Arial';
 padding-bottom: 30px;
 background-color: #00485;
+border: 5px solid #D0BF8D;
+padding: 10px;
 }
 
 #Agenda {
