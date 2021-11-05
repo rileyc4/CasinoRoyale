@@ -21,6 +21,18 @@ border: 5px solid #D0BF8D;
 padding: 10px;
 }
 
+#Date {
+color: #D0BF8D;
+text-align: center;
+font-size: 350%;
+font-family: 'Arial';
+margin: auto;
+width: 700px;
+background-color: #004851;
+border: 5px solid #D0BF8D;
+padding: 10px;
+}
+
 h2 {
 color: #D0BF8D;
 text-align: center;
